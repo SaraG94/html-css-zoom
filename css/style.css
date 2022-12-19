@@ -10,12 +10,14 @@ img {
 
 body{
     height: 100vh;
+    background-color: #000000;
 }
 
 .container {
 	max-width: 1444px;
 	margin: 0 auto;
 }
+
 
 /****account****/
 .row{
@@ -24,6 +26,11 @@ body{
 
 .col{
     flex-basis: calc(100% / 7);
+    padding: 0 5px 15px 0;
+}
+
+col:last-child{
+    padding-right: 0px;
 }
 
 /***image - text account ***/
