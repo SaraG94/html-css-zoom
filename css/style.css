@@ -67,12 +67,48 @@ button.icon{
     border-radius: 5px;
 }
 
-
 /***footer***/
 
 footer{
-    height:80px;
+    min-height:75px;
     background-color: #222222;
 }
 
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.row-footer button{
+    border: none;
+}
+
+button.option>i{
+    font-size: 29px;
+}
+button.option>p{
+    padding-top: 10px;
+}
+
+button.option{
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+}
+
+.option.share>i{
+    color: #4BC800;
+}
+
+button.end{
+    background-color: #4A4A4A;
+    color:#E5233A;
+    padding: 28px;
+}
 
