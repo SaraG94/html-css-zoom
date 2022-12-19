@@ -72,6 +72,9 @@ button.icon{
 footer{
     min-height:75px;
     background-color: #222222;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .row-footer{
@@ -92,6 +95,7 @@ ul{
 button.option>i{
     font-size: 29px;
 }
+
 button.option>p{
     padding-top: 10px;
 }
@@ -99,7 +103,8 @@ button.option>p{
 button.option{
     background-color: #222222;
     color: white;
-    padding: 10px;
+    padding: 10px 18px;
+    position: relative;
 }
 
 .option.share>i{
@@ -112,3 +117,11 @@ button.end{
     padding: 28px;
 }
 
+.arrow>p::before{
+    content:'\005E';
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 4px;
+    font-size: 20px;
+}
